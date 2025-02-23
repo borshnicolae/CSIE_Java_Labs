@@ -13,13 +13,13 @@ public class Main {
 		System.out.println("Client c1: id = " + c1.getId() + ", name = " + c1.getName());
 		System.out.println("Client c2: id = " + c2.getId() + ", name = " + c2.getName());
 		
-		c2.setName("Corina");
+		c2.setName("Bob");
 		System.out.println("Client c1: id = " + c1.getId() + ", name = " + c1.getName());
 		System.out.println("Client c2: id = " + c2.getId() + ", name = " + c2.getName());
 		
 		c2 = c1.cloneUser();
 		c2.setId(2);
-		c2.setName("Ion");
+		c2.setName("Alice");
 		System.out.println("Client c1: id = " + c1.getId() + ", name = " + c1.getName());
 		System.out.println("Client c2: id = " + c2.getId() + ", name = " + c2.getName());
 		
