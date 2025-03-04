@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
 
-import com.ase.csie.java.Guest;
-import com.ase.csie.java.Transaction;
+import com.ase.csie.java.io.Guest;
+import com.ase.csie.java.io.Transaction;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

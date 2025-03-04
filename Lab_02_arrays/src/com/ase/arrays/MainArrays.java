@@ -8,6 +8,7 @@ public class MainArrays {
 
 		//commentarii /**/
 		
+		//In methods primitives has to be initialized before used.
 		//Primitives:  Wrappers
 		//byte -> 1 byte  Byte
 		//short -> 2 bytes Short
@@ -23,7 +24,7 @@ public class MainArrays {
 		int b = a;
 		a=b;
 		
-		//maybe about final
+		//final keyword
 
 		int studentsNo = 2;
 		int lectNo = 3;

@@ -1,7 +1,5 @@
 package com.ase.csie.java;
 
-import com.ase.csie.java.io.Guest;
-
 public class Suite extends HotelRoom {
 	private int roomsNumber;
 	private Guest[] guests;

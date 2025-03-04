@@ -1,6 +1,6 @@
 package com.ase.csie.java;
 
-import com.ase.csie.java.io.Guest;
+import com.ase.csie.java.serialization.Guest;
 
 public class Suite extends HotelRoom {
 	private int roomsNumber;

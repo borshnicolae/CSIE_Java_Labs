@@ -1,6 +1,9 @@
 package com.ase.csie.java;
 
-public class Guest {
+import java.io.Serializable;
+
+public class Guest implements Serializable{
+	private static final long serialVersionUID = 164785519450875330L;
 	private String name;
 
 	public Guest(String name) {

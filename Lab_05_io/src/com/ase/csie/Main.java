@@ -3,8 +3,8 @@ package com.ase.csie;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-import com.ase.csie.java.Guest;
-import com.ase.csie.java.Transaction;
+import com.ase.csie.java.io.Guest;
+import com.ase.csie.java.io.Transaction;
 
 public class Main {
 
