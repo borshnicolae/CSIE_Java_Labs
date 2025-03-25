@@ -2,7 +2,7 @@ package com.ase.csie.java;
 
 public class Suite extends HotelRoom {
 	private int roomsNumber;
-	private Guest[] guests;
+	private Guest[] guests; //HAS-A
 
 	public Suite() {
 		this.roomsNumber = 0;

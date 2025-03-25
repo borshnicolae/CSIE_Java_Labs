@@ -143,5 +143,6 @@ public /*final*/ /*abstract*/ class HotelRoom implements Cloneable, HotelActions
 		return startPrice;
 	}
 	
+	//public abstract void cleanRoom();
     
 }

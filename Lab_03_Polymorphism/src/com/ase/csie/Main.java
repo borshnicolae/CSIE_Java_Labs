@@ -26,15 +26,21 @@ public class Main {
 		r = s;
 		System.out.println(r.toString());
 		
-		HotelRoom r1 = null;
-		r1 = sr; //up-cast implicit SingleRoom -> HotelRoom
-		sr = (SingleRoom) r1;
+		HotelRoom hr1 = null;
+		hr1 = sr; //up-cast implicit SingleRoom -> HotelRoom
+		sr = (SingleRoom) hr1;
 		
 		try {
-			s = (Suite) r1;
+			s = (Suite) hr1;
 		} catch(ClassCastException cce) {
 			System.out.println("Cast gresit");
 			cce.printStackTrace();
+		}
+		
+		if(hr1 instanceof Suite) {
+			System.out.println("HR1 IS A SUIT");
+		} else if (hr1 instanceof SingleRoom) {
+			System.out.println("HR1 IS A SINGLE ROOM");
 		}
 		
 		//clone
