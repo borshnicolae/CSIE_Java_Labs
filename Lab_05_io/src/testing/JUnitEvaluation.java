@@ -30,7 +30,7 @@ public class JUnitEvaluation {
 
 	@Test
 	public void _310testInfoClassTranscation_mark3() throws Exception {
-		Class<?> t = Class.forName("com.ase.csie.java.Transaction");
+		Class<?> t = Class.forName("com.ase.csie.java.io.Transaction");
 		if(t.getDeclaredFields().length < 5)
 			fail("Not proper number of the fields");
 		for (Field f : t.getDeclaredFields()) {

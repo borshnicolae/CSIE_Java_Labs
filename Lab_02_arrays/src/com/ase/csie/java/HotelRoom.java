@@ -79,6 +79,9 @@ public class HotelRoom implements Cloneable{
 		
 		for(Amenity a : this.amenities) {
 			//null check before, ondemand
+//			if(a == null) {
+//				continue;
+//			}
 			switch(a) {
 			case MINI_BAR:
 				startPrice+=30.05;

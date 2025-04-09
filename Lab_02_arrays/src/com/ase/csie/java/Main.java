@@ -8,7 +8,10 @@ public class Main {
 //		int a;
 //		System.out.println(a);
 				
-		HotelRoom r1 = new HotelRoom(1, "East", new Amenity[] {Amenity.TV, Amenity.WIFI});
+		Amenity[] amenities = new Amenity[] {Amenity.TV, Amenity.WIFI};
+		HotelRoom r1 = new HotelRoom(1, "East", amenities);
+		//TODO Start from here. (Miercuri)
+//		amenities[0] = Amenity.MINI_BAR;
 		HotelRoom r2 = new HotelRoom(2, "West", new Amenity[] {Amenity.TV, Amenity.WIFI, Amenity.MINI_BAR});
 		
 		HotelRoom[] hotel = new HotelRoom[HotelRoom.noRooms];
