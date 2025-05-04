@@ -9,7 +9,7 @@ public class MyMultiThreadArray implements Runnable {
 	
 	public MyMultiThreadArray(int[] v, 
 			int start, int stop) {
-		this.vi = v; //TODO why if v.clone() used is slower;
+		this.vi = v; //if v.clone() used is slower;
 		this.startIdx = start;
 		this.stopIdx = stop;
 	}
@@ -21,6 +21,9 @@ public class MyMultiThreadArray implements Runnable {
 				idx++) {
 			s += this.vi[idx];
 		}
+		// sum is not incremented directly because it's a object in heap memory and it's
+		// slower to call every iteration the object. Either do this way or make sum
+		// primitive in order to gain necessary speed performance.
 		this.sum = new Long(s);
 	}
 	
